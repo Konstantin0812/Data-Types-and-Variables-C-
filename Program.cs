@@ -1,15 +1,12 @@
-﻿namespace _01._Convert_Meters_to_Kilometers
+﻿namespace _02._Pounds_to_Dollars
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-           int meters = int.Parse(Console.ReadLine());
-
-            float kilometers = meters / 1000f;
-
-            Console.WriteLine($"{kilometers:F2}");
-
+            double pounds = double.Parse(Console.ReadLine());
+            double dollars = pounds * 1.31;
+            Console.WriteLine($"{dollars:F3}");
         }
     }
 }
