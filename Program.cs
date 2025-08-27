@@ -1,12 +1,14 @@
-﻿namespace _02._Pounds_to_Dollars
+﻿namespace _06._Reversed_Chars
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            double pounds = double.Parse(Console.ReadLine());
-            double dollars = pounds * 1.31;
-            Console.WriteLine($"{dollars:F3}");
+            string firstString = Console.ReadLine();
+            string secondString = Console.ReadLine();
+            string thirdString = Console.ReadLine();
+
+           Console.WriteLine($"{thirdString} {secondString} {firstString}");
         }
     }
 }
